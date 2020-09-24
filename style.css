@@ -1,0 +1,281 @@
+/******************DEFAULT**********************/
+nav,header,footer
+{
+    display: block;
+   
+}
+
+label
+{
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+}
+p
+{
+    font-size: 19px;
+}
+body
+{
+    line-height: 1;
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+    display: block;    
+
+}
+.container
+{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: block;
+    overflow: hidden;
+    
+}
+.row
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after
+{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+
+/**********************NAV BAR********************/
+
+nav{
+    width: 100%;
+    margin: 0;
+    background-color: darkcyan;
+}
+
+nav ul
+{
+    
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+nav ul li
+{
+    display: block;
+    float: left;
+    list-style: none;
+    min-height: 16px;
+    
+    
+}
+nav ul li a
+{
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    
+    
+    
+}
+nav ul li a:hover
+{
+    background-color: lightgoldenrodyellow;
+    color: dimgrey;
+}
+
+.reg
+{
+    float: right;
+}
+nav 
+{
+    overflow: hidden;
+}
+.unicode
+{
+    display: none;
+}
+
+/*****************SECTION 1**********************/
+#sec-1
+{
+    background: linear-gradient(#0000ff,#00bfff);
+    overflow: hidden;
+    width: 100%;
+    
+    
+}
+.left
+{
+    
+   padding-left: 100px;
+    
+}
+.right
+{
+    padding-left: 10px;
+    
+}
+
+.col-1{width: 10%;}
+.col-2{width: 20%;}
+.col-3{width: 30%}
+.col-4{width: 40%}
+.col-5{width: 50%;}
+.col-6{width: 60%;}
+.col-7{width: 70%}
+.col-8{width: 80%}
+.col-9{width: 90%}
+.col-10{width: 100%}
+
+.inputbox
+{
+    font-size: 80%;
+    padding: 5px;
+}
+.h1large
+{
+   font-size: 2.5em;
+}
+.h2large
+{
+   font-size: 1.8em;
+}
+.video
+{
+    width: 100%;
+}
+button
+{
+    margin-top: 20px;
+    
+}
+
+/****************SSECTION 2*******************/
+
+
+.sec-2header
+{
+    text-align: center;
+}
+.box
+{
+    padding: 20px 40px 5px;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgb(0,0,0,.15);
+    border-radius: 10%;
+    margin: 10px;   
+    
+}
+
+
+
+
+
+
+/***************Fooer***************/
+footer
+{
+    background: linear-gradient(to right,darkcyan,blue);
+    
+}
+footer li
+{
+    font-size: 20px;
+}
+.convenors ul
+{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.convenors
+{
+   padding-left: 30%;
+}
+
+
+
+
+
+
+
+/**************** MOBILE RESPONSIVE*****************************/
+
+@media screen and (max-width: 600px)
+{
+    ul li:not(:nth-child(1))
+    {
+        display: none;
+    }
+    
+    nav li.unicode
+    {
+        display: block;
+        float: right;
+    }
+   
+    
+   .nav.responsive li
+    {
+        display: block;
+        float: none;
+    }
+   .nav.responsive li a
+    {
+        display: block;
+        text-align: left;
+    }
+     .nav.responsive .unicode
+    {
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+    }
+    
+    .col-5
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .right,.left
+    {
+        margin: 15px;
+    }
+    .right
+    {
+        position: relative;
+        width: 100%;
+    }
+    .col-3
+    {
+        width: 100%
+    }
+    .col-4
+    {
+        width: 100%;
+    }
+    .box
+    {
+        padding: 30px
+    }
+}
+
+
+    
+
+
+
+
+
+
